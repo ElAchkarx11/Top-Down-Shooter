@@ -179,13 +179,28 @@ function fim_da_animacao(){
     return _image + _spd >= sprite_get_number(_sprite);
 }	
 	
-//VErificar com qual objeto está colidindo
 
-if(place_meeting(x, y, actual_weapon) && !weapon_active){
-	if(_equip_weapon){
-		weapon_active = true;
-		
+// creating a best method to equip\unequip weapon
+//In this case, a for repetition is coded to run the Array of guns
+//to verifiy which weapon the player is colliding, and then set the wapon name and wapon active
+
+for (var _i = 0 ; _i < array_length(actual_weapon); _i++){
+
+	if place_meeting(x, y, actual_weapon[_i]){
+	
+		if _equip_weapon && !weapon_active {
+			weapon_active = true;
+			global.weapon_name = actual_weapon[_i];
+		}
+	
+	}
+	
+	if _mb_attack {
+	
+		actual_weapon[_i].bullet--;
+	
 	}
 
 }
-show_debug_message(weapon_active);
+
+show_debug_message(global.weapon_name)

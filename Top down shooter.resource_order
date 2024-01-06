@@ -28,7 +28,6 @@
     {"name":"Revolver","order":2,"path":"folders/Sprites/Weapons/Revolver.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"obj_revolver","order":2,"path":"objects/obj_revolver/obj_revolver.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_enemy_moving","order":1,"path":"sprites/spr_enemy_moving/spr_enemy_moving.yy",},
     {"name":"spr_player_moving","order":1,"path":"sprites/spr_player_moving/spr_player_moving.yy",},
@@ -37,6 +36,7 @@
     {"name":"spr_shoot","order":2,"path":"sprites/spr_shoot/spr_shoot.yy",},
     {"name":"spr_player_idle_attack_hb","order":4,"path":"sprites/spr_player_idle_attack_hb/spr_player_idle_attack_hb.yy",},
     {"name":"spr_player_idle_attack","order":2,"path":"sprites/spr_player_idle_attack/spr_player_idle_attack.yy",},
+    {"name":"obj_pistol","order":1,"path":"objects/obj_pistol/obj_pistol.yy",},
     {"name":"spr_player_idle_attack2","order":3,"path":"sprites/spr_player_idle_attack2/spr_player_idle_attack2.yy",},
   ],
 }
